@@ -21,6 +21,7 @@
         <module>cloud-config</module>
 		<module>cloud-auth</module>
         <module>cloud-bus</module>
+		<module>cloud-config-client</module>
     </modules>
 
 </project>
