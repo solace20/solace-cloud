@@ -8,4 +8,4 @@ _**服务提供者:producer:8800/hello?name=**_
 
 _**bus+config:动态刷新配置文件，cloud-config为配置中心，config-client中暴露refresh接口提供刷新操作**_
 
-...未完待续
+...迁移到github
