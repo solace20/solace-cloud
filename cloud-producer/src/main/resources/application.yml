@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-producer
+
+server:
+  port: 8800
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+    healthcheck:
+      enabled: true

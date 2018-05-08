@@ -1,0 +1,20 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/solace20/solace-cloud-config
+          username:
+          password:
+          clone-on-start: false
+      label: master
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
